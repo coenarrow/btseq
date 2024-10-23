@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# The path to the modules so they can be loaded
+MODULE_PATH="/group/pgh004/carrow/repo/btseq/modulefiles"
+
 # Check if the directory argument is provided, if not, set it to the present working directory.
 if [ -z "$1" ]; then
     d=$(pwd)
@@ -53,6 +56,8 @@ for f in "$d"/*.gz; do
 
   # Step 5: Append module load commands to the job script.
   echo "Appending module load commands to the job script."
+  # update the module path for these tools first
+  echo "module use $MODULE_PATH" >> "$qfile"
   echo module load bioinfo >> "$qfile"
   echo module load cutadapt >> "$qfile"
   echo module load trim_galore >> "$qfile"
