@@ -19,6 +19,8 @@ $SCRIPT_DIR/setup.sh $dir
 # First run prepare_trim on our directory
 jid2=$(sbatch --job-name=prep_trim --output=prep_trim.out --partition='pophealth' $SCRIPT_DIR/prepare_trim.sh $dir)
 jid2=${jid2:20}
+# Align
 jid3=$(sbatch --job-name=prepare_align --dependency=afterany:$jid2 --partition='pophealth' --output=prep_aln.out $SCRIPT_DIR/prepare_align.sh $dir)
 jid3=${jid3:20}
-# sbatch --dependency=afterany:$jid3 --job-name=run --output=run.out btseq_run
+
+sbatch --dependency=afterany:$jid3 --job-name=run --output=run.out --partition='pophealth' $SCRIPT_DIR/run.sh $dir

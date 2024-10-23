@@ -59,9 +59,6 @@ echo $tname >> $CpAcontext_name.hist
 cat $CpAcontext_name.hist.tmp | awk 'BEGIN {A=0;C=0;G=0;T=0;OFS="\t"} {if (NR==1) {printf $1 "\t" "# of A\t# of C\t# of G\t# of T\t# of sites\t"; for (i=2; i<=NF; i++) {printf $i "\t"} printf "\n"; next} for (i=2; i<=NF; i++) {if ($i=="A") {A=A+1} if ($i=="C") {C=C+1} if ($i=="G") {G=G+1} if ($i=="T") {T=T+1}} printf $1 "\t" A "\t" C "\t" G "\t" T "\t" (A+C+G+T) "\t"; for (i=2; i<=NF; i++) {printf $i "\t"} printf "\n";A=0;C=0;G=0;T=0}' >> $CpAcontext_name.hist
 echo >> $CpAcontext_name.hist
 rm $CpAcontext_name.hist.tmp
-
-
-
 end
 
 

@@ -9,6 +9,7 @@ fi
 
 # This isn't a variable that's used, but it's the path to the modules so they can be loaded
 ENV_MODULE_PATH="/group/pgh004/carrow/repo/btseq/env/modules"
+ANALYZE_RESULTS_SCRIPT="/group/pgh004/carrow/repo/btseq/kaya_scripts/analyze_results.sh"
 
 # Set the input file containing the definitions for the job
 defs="${outdir}/BSTarget_input.txt"
@@ -53,7 +54,7 @@ awk -v outdir="${outdir}" '
     print "bismark " outdir "/" $2 "_" $1 " " $3 " --sam --bowtie2 -o " outdir "/" $2 "_" $1 "/Output --temp_dir " outdir "/" $2 "_" $1 "/Output" >> Qout;
     
     # 7. Analyze the result using a custom script (Analyze_Result.csh) for the alignment result
-    print "/cs/icore/joshua.moss/scripts/btseq/scripts/Analyze_Result.csh " $3 " " outdir "/" $2 "_" $1 >> Qout;
+    print "/group/pgh004/carrow/repo/btseq/kaya_scripts/analyze_results.sh " $3 " " outdir "/" $2 "_" $1 >> Qout;
     
     # 8. Add job submission command to the master "Run.q" script
     print "sbatch --mem=4GB --cpus-per-task=3 --partition=pophealth --time=5:00:00 --output=" outdir "/Run/" $2 "_" $1 ".q.out " Qout >> outdir "/Run/Run.q";
