@@ -1,5 +1,0 @@
-#!/bin/bash
-
-export PATH=$PATH:/group/pgh004/carrow/repo/btseq/scripts
-Rscript /group/pgh004/carrow/repo/btseq/scripts/btseq_setup.R
-echo Done setup! Go ahead and run btseq_get_reads
