@@ -1,3 +1,5 @@
-setenv PATH $PATH\:/cs/icore/joshua.moss/scripts/btseq
-Rscript /cs/icore/joshua.moss/scripts/btseq/btseq_setup.R
+#!/bin/csh
+
+setenv PATH $PATH\:/group/pgh004/carrow/repo/btseq/
+Rscript /group/pgh004/carrow/repo/btseq/btseq_setup.R
 echo Done setup! Go ahead and run btseq_get_reads
