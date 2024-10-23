@@ -1,14 +1,11 @@
 #!/bin/bash
 
-# Check if the directory argument is provided
+# Check if the directory argument is provided, if not, set it to the present working directory.
 if [ -z "$1" ]; then
-  echo "Error: No directory specified. Please provide a directory as an argument."
-  echo "Usage: $0 <directory>"
-  exit 1
+    d=$(pwd)
+else
+    d="$1"
 fi
-
-# Set the directory from the first argument and store it in variable 'd'
-d=$1
 
 # Check if the directory exists
 if [ ! -d "$d" ]; then

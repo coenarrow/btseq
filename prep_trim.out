@@ -1,0 +1,62 @@
+Working in directory: ./example
+Created job script: ./example/trim_galore/Run/A001_S1_R1_001.fastq.gz_trim_galore.q
+Appending module load commands to the job script.
+Appending trim_galore command to the job script for file ./example/A001_S1_R1_001.fastq.gz.
+Made job script executable: ./example/trim_galore/Run/A001_S1_R1_001.fastq.gz_trim_galore.q
+Adding job submission command for file ./example/A001_S1_R1_001.fastq.gz to the master script.
+Created job script: ./example/trim_galore/Run/A002_S2_R1_001.fastq.gz_trim_galore.q
+Appending module load commands to the job script.
+Appending trim_galore command to the job script for file ./example/A002_S2_R1_001.fastq.gz.
+Made job script executable: ./example/trim_galore/Run/A002_S2_R1_001.fastq.gz_trim_galore.q
+Adding job submission command for file ./example/A002_S2_R1_001.fastq.gz to the master script.
+Created job script: ./example/trim_galore/Run/A003_S3_R1_001.fastq.gz_trim_galore.q
+Appending module load commands to the job script.
+Appending trim_galore command to the job script for file ./example/A003_S3_R1_001.fastq.gz.
+Made job script executable: ./example/trim_galore/Run/A003_S3_R1_001.fastq.gz_trim_galore.q
+Adding job submission command for file ./example/A003_S3_R1_001.fastq.gz to the master script.
+Created job script: ./example/trim_galore/Run/A004_S4_R1_001.fastq.gz_trim_galore.q
+Appending module load commands to the job script.
+Appending trim_galore command to the job script for file ./example/A004_S4_R1_001.fastq.gz.
+Made job script executable: ./example/trim_galore/Run/A004_S4_R1_001.fastq.gz_trim_galore.q
+Adding job submission command for file ./example/A004_S4_R1_001.fastq.gz to the master script.
+Created job script: ./example/trim_galore/Run/A005_S5_R1_001.fastq.gz_trim_galore.q
+Appending module load commands to the job script.
+Appending trim_galore command to the job script for file ./example/A005_S5_R1_001.fastq.gz.
+Made job script executable: ./example/trim_galore/Run/A005_S5_R1_001.fastq.gz_trim_galore.q
+Adding job submission command for file ./example/A005_S5_R1_001.fastq.gz to the master script.
+Created job script: ./example/trim_galore/Run/A006_S6_R1_001.fastq.gz_trim_galore.q
+Appending module load commands to the job script.
+Appending trim_galore command to the job script for file ./example/A006_S6_R1_001.fastq.gz.
+Made job script executable: ./example/trim_galore/Run/A006_S6_R1_001.fastq.gz_trim_galore.q
+Adding job submission command for file ./example/A006_S6_R1_001.fastq.gz to the master script.
+Created job script: ./example/trim_galore/Run/A007_S7_R1_001.fastq.gz_trim_galore.q
+Appending module load commands to the job script.
+Appending trim_galore command to the job script for file ./example/A007_S7_R1_001.fastq.gz.
+Made job script executable: ./example/trim_galore/Run/A007_S7_R1_001.fastq.gz_trim_galore.q
+Adding job submission command for file ./example/A007_S7_R1_001.fastq.gz to the master script.
+Created job script: ./example/trim_galore/Run/A008_S8_R1_001.fastq.gz_trim_galore.q
+Appending module load commands to the job script.
+Appending trim_galore command to the job script for file ./example/A008_S8_R1_001.fastq.gz.
+Made job script executable: ./example/trim_galore/Run/A008_S8_R1_001.fastq.gz_trim_galore.q
+Adding job submission command for file ./example/A008_S8_R1_001.fastq.gz to the master script.
+Created job script: ./example/trim_galore/Run/A009_S9_R1_001.fastq.gz_trim_galore.q
+Appending module load commands to the job script.
+Appending trim_galore command to the job script for file ./example/A009_S9_R1_001.fastq.gz.
+Made job script executable: ./example/trim_galore/Run/A009_S9_R1_001.fastq.gz_trim_galore.q
+Adding job submission command for file ./example/A009_S9_R1_001.fastq.gz to the master script.
+Created job script: ./example/trim_galore/Run/A010_S10_R1_001.fastq.gz_trim_galore.q
+Appending module load commands to the job script.
+Appending trim_galore command to the job script for file ./example/A010_S10_R1_001.fastq.gz.
+Made job script executable: ./example/trim_galore/Run/A010_S10_R1_001.fastq.gz_trim_galore.q
+Adding job submission command for file ./example/A010_S10_R1_001.fastq.gz to the master script.
+Created job script: ./example/trim_galore/Run/A011_S11_R1_001.fastq.gz_trim_galore.q
+Appending module load commands to the job script.
+Appending trim_galore command to the job script for file ./example/A011_S11_R1_001.fastq.gz.
+Made job script executable: ./example/trim_galore/Run/A011_S11_R1_001.fastq.gz_trim_galore.q
+Adding job submission command for file ./example/A011_S11_R1_001.fastq.gz to the master script.
+Created job script: ./example/trim_galore/Run/A012_S12_R1_001.fastq.gz_trim_galore.q
+Appending module load commands to the job script.
+Appending trim_galore command to the job script for file ./example/A012_S12_R1_001.fastq.gz.
+Made job script executable: ./example/trim_galore/Run/A012_S12_R1_001.fastq.gz_trim_galore.q
+Adding job submission command for file ./example/A012_S12_R1_001.fastq.gz to the master script.
+Job script generation complete. To submit all jobs, run: bash ./example/trim_galore/Run/Run.q
