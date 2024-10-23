@@ -1,0 +1,6 @@
+Starting job bioseq_example, ID 525957
+
+Currently Loaded Modulefiles:
+ 1) cuda/11.8           3) bioinfo/1.0    5) trim-galore/1.0  
+ 2) Anaconda3/2023.09   4) cutadapt/1.0  
+Run name is missing. Exiting

@@ -1,0 +1,10 @@
+#%Module1.0
+proc ModulesHelp { } {
+    puts stderr "bioinfo 1.0"
+}
+module-whatis "Loads the bioinfo tool"
+
+# Set up the environment (path to the Conda environment)
+set root /group/pgh004/carrow/repo/btseq/modules
+
+prepend-path PATH $root/bin
